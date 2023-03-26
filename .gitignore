@@ -2,3 +2,4 @@
 .DS_Store
 apikey.env
 node_modules/
+.DS_Store
