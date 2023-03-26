@@ -7,6 +7,7 @@ const { Configuration, OpenAIApi } = require("openai");
 
 
 
+
 const ConversationStarter = ({route}) => {
     //Hier wird das geklickte Icon aus dem IconWrapper übergeben, falls route != undefined ist bla bla bla
     if(route.params != undefined){
@@ -16,7 +17,8 @@ const ConversationStarter = ({route}) => {
     
     
     const [data, setData] = useState([]);
-    const apiKey = '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'
+    //const apiKey = OPENAI_API_KEY 
+    
     const apiUrl = 'https://api.openai.com/v1/chat/completions'
     const [textInput, setTextInput] = useState('') //setTextInput wird TextInput updaten
     
