@@ -1,2 +1,4 @@
-
 *.env
+.DS_Store
+apikey.env
+node_modules/
