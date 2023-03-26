@@ -6,9 +6,7 @@ const { Configuration, OpenAIApi } = require("openai");
 
 
 
-//heyyyyyy
-//was geht ab ich bin der bot
-//änderungggg
+
 const ConversationStarter = ({route}) => {
     //Hier wird das geklickte Icon aus dem IconWrapper übergeben, falls route != undefined ist bla bla bla
     if(route.params != undefined){
