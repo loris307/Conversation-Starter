@@ -12,13 +12,6 @@ While the app's suggestions may not always be perfect, we believe that it can st
 ## Installation Instructions
 To install Conversation-Starter2, simply clone or download this repository onto your local machine. From there, you can run the app on a simulator or physical device using React Native CLI.
 
-git clone https://github.com/your_username/Conversation-Starter2.git
-cd developers-zone  
-npm install  
-react-native run-ios (or run-android)  
-
-Please note that this app currently only supports iOS and Android devices. You also have to input your own API key of course.
-
 ## Contributing
 We welcome contributions to this repository. If you have any suggestions, feedback or find a bug, please create an issue or submit a pull request.
 
